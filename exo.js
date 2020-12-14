@@ -19,15 +19,18 @@ else {
 
 //Exo 3
 let paragraphe3 = document.getElementById("parse-float");
-let change = Number.parseFloat(52.563) * 18;
+let change = Number.parseFloat(52.563 * 18);
 
-let nouvelle = paragraphe3.replace("52.563", change);
-paragraphe3.innerHTML = nouvelle;
+//let nouvelle = paragraphe3.replace("52.563", change);
+paragraphe3.innerHTML = change + "% de la population blablabla";
 
 //Exo 4
 let paragraphe4 = document.getElementById("parse-int");
-paragraphe4.innerHTML = Number.parseInt(paragraphe4) / 18 + " px";
+change = Number.parseInt("65"/ 18);
+console.log();
+paragraphe4.innerHTML = change + " px";
 
 //Exo 5
 let paragraphe5 = document.getElementById("to-fixed");
-paragraphe5.innerHTML = paragraphe5.value.toFixed(2);
+change = 41.9596;
+paragraphe5.innerHTML = change.toFixed(2);
